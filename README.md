@@ -1,6 +1,6 @@
 # Plugin Evaluation Script
 
-Q-SYS Plugin developers can use this tool to evaluate the design time of their .qplug files and find syntax errors and make sure they conform to SDK standards. It will evaluate the following:
+Q-SYS Plugin developers can use this tool to evaluate the design time of their .qplug files, find syntax errors, and make sure they conform to SDK standards. It will evaluate the following:
 
 - Check for required and optional information in the PluginInfo table
 - Checks for reserved control names which are encouraged to be used when appropriate
