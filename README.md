@@ -1,11 +1,19 @@
 # Plugin Evaluation Script
 
+Q-SYS Plugin developers can use this tool to evaluate the design time of their .qplug files and find syntax errors and make sure they conform to SDK standards. It will evaluate the following:
+
+- Check for required and optional information in the PluginInfo table
+- Checks for reserved control names which are encouraged to be used when appropriate
+- Checks for correct keys and allowed values for Properties, Controls, graphics, and layout items
+- generates a JSON output that can be used by additional tools and enables further automation
+- Breaks down a report into errors, warnings, and notices
+
 ## Setup and Requirements
 
 - Before using install JQ [Install Instructions](https://jqlang.github.io/jq/download/)
   - this is pre-installed on GitHub hosted runners
 - Tested using GitBash terminal on windows 11
-- Bundled is the lua executable and json.lua that QDS uses at time of writing
+- Bundled is the lua 5.3 executable and json.lua that QDS uses at time of writing
 
 ## Usage
 
