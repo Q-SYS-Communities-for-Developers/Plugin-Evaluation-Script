@@ -1,0 +1,5 @@
+output/
+*.qplug*
+test.lua
+PluginEvalConfig*
+!PluginEvalConfig.json

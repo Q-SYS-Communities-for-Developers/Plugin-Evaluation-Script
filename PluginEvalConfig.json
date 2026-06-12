@@ -1,0 +1,11 @@
+{
+  "Settings": {
+    "VarsToReset": []
+  },
+  "Exceptions": {
+    "KeyValues": [],
+    "PrettyNamelessControls": [],
+    "PinlessControls": [],
+    "AllowSpacesInControlNames": false
+  }
+}
