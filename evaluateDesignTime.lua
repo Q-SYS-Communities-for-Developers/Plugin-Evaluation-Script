@@ -56,7 +56,8 @@ local ReservedProperties = {
   "page_index",
   "name",
   "script access",
-  "code name"
+  "code name",
+  "internal_designator"
 }
 
 local ReservedControls = {
