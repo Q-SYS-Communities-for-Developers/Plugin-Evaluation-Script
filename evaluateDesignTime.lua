@@ -132,7 +132,7 @@ local ButtonLayoutKeys = {
   "IsBold"
 }
 local FaderLayoutKeys = {"ShowTextbox"}
-local MeterLayoutKeys = {"BackgroundColor", "MeterStyle", "ShowTextbox"}
+local MeterLayoutKeys = {"BackgroundColor", "MeterStyle", "ShowTextbox", "CornerRadius", "Radius"}
 local MeterStyles = {"Level", "Reduction", "Gain", "Standard"}
 local TextLayoutKeys = {"CornerRadius", "TextBoxStyle", "WordWrap", "IsBold"}
 local LedLayoutKeys = {"OffColor", "UnlinkOffColor"}
